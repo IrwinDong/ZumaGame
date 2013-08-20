@@ -1,8 +1,0 @@
-c:\users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame\bin\Debug\ZumaGame.exe.config
-c:\users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame\bin\Debug\ZumaGame.exe
-c:\users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame\bin\Debug\ZumaGame.pdb
-c:\users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame\bin\Debug\Math.dll
-c:\users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame\bin\Debug\Math.pdb
-c:\users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame\obj\Debug\ZumaGame.csprojResolveAssemblyReference.cache
-c:\users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame\obj\Debug\ZumaGame.exe
-c:\users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame\obj\Debug\ZumaGame.pdb
