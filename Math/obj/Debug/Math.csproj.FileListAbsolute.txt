@@ -1,0 +1,5 @@
+c:\Users\dongxu\documents\visual studio 2012\Projects\ZumaGame\Math\bin\Debug\Math.dll
+c:\Users\dongxu\documents\visual studio 2012\Projects\ZumaGame\Math\bin\Debug\Math.pdb
+c:\Users\dongxu\documents\visual studio 2012\Projects\ZumaGame\Math\obj\Debug\Math.csprojResolveAssemblyReference.cache
+c:\Users\dongxu\documents\visual studio 2012\Projects\ZumaGame\Math\obj\Debug\Math.dll
+c:\Users\dongxu\documents\visual studio 2012\Projects\ZumaGame\Math\obj\Debug\Math.pdb

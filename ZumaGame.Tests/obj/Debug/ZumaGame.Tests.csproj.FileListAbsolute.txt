@@ -1,0 +1,6 @@
+c:\Users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame.Tests\bin\Debug\ZumaGame.Tests.dll
+c:\Users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame.Tests\bin\Debug\ZumaGame.Tests.pdb
+c:\Users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame.Tests\bin\Debug\nunit.framework.dll
+c:\Users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame.Tests\obj\Debug\ZumaGame.Tests.csprojResolveAssemblyReference.cache
+c:\Users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame.Tests\obj\Debug\ZumaGame.Tests.dll
+c:\Users\dongxu\documents\visual studio 2012\Projects\ZumaGame\ZumaGame.Tests\obj\Debug\ZumaGame.Tests.pdb
