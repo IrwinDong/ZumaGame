@@ -45,6 +45,21 @@
     <Compile Include="Paytable.Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Math\Math.csproj">
+      <Project>{390EE46A-0570-4661-839D-DC5F80242E70}</Project>
+      <Name>Math</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZumaGame\ZumaGame.csproj">
+      <Project>{e1ff787f-2f91-4a2f-9a59-2d53ae00d640}</Project>
+      <Name>ZumaGame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Paytable.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

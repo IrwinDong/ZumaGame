@@ -4,7 +4,7 @@ namespace Lottery
     /// <summary>
     /// This class represents a lottery award.
     /// </summary>
-    public class LotteryAward
+    public class LotteryTicket
     {
         /// <summary>
         /// The win level.

@@ -1,4 +1,5 @@
 ﻿
+
 namespace Lottery
 {
     /// <summary>
@@ -6,6 +7,6 @@ namespace Lottery
     /// </summary>
     public interface ILotteryPool
     {
-        LotteryAward DrawAward();
+        LotteryTicket DrawTicket();
     }
 }

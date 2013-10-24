@@ -1,10 +1,16 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace Math
 {
+    [Serializable]
     public class PrizePattern
     {
-        public List<PrizedSymbol> PrizedSymbols { get; set; }
-        public Award Award { get; set; }
+        [XmlElement("PrizedBall")]
+        public List<PrizedBall> PrizedSymbols { get; set; }
+
+        [XmlElement("AwardDefinition")]
+        public List<AwardDefinition> AwardDefinitions { get; set; }
     }
 }

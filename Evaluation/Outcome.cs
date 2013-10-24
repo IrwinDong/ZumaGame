@@ -1,11 +1,11 @@
 ﻿
-namespace Math
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
+namespace Evaluation
+{
     public class Outcome
     {
         public List<string> Strip { get; private set; }

@@ -1,8 +1,9 @@
 ﻿
-namespace Math
-{
-    using System;
+using System;
+using Math;
 
+namespace Evaluation
+{
     /// <summary>
     /// This class represent a ball shoot.
     /// </summary>
@@ -19,31 +20,31 @@ namespace Math
         public int Position { get; private set; }
 
         /// <summary>
-        /// The award of this shoot.
+        /// The award this shoot is hitting.
         /// </summary>
-        public Award Award { get; private set; }
+        public AwardDefinition AwardDefinition { get; private set; }
 
         /// <summary>
         /// Construct a shoot.
         /// </summary>
         /// <param name="ball">The ball to shoot.</param>
         /// <param name="position">The position shoot to in the strip.</param>
-        /// <param name="award">The award of this shoot.</param>
-        public Shoot(string ball, int position, Award award)
+        /// <param name="awardDefinition">The award of this shoot.</param>
+        public Shoot(string ball, int position, AwardDefinition awardDefinition)
         {
             if(ball == null)
             {
                 throw new ArgumentNullException("ball");
             }
 
-            if(award == null)
+            if(awardDefinition == null)
             {
-                throw new ArgumentNullException("award");
+                throw new ArgumentNullException("awardDefinition");
             }
 
             Ball = ball;
             Position = position;
-            Award = award;
+            AwardDefinition = awardDefinition;
         }
     }
 }
