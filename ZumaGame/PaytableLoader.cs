@@ -1,9 +1,10 @@
-﻿using System.Xml;
-using System.Xml.Serialization;
-using Math;
-
+﻿
 namespace ZumaGame
 {
+    using System.Xml;
+    using System.Xml.Serialization;
+    using MathSchema;
+
     public class PaytableLoader
     {
         public static Paytable LoadPaytable(string paytablePath)

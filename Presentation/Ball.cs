@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace Outcome
+namespace Presentation
 {
     [Serializable]
     public class Ball

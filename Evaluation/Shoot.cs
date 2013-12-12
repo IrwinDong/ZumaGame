@@ -1,6 +1,6 @@
 ﻿
 using System;
-using Math;
+using MathSchema;
 
 namespace Evaluation
 {

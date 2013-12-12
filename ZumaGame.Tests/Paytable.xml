@@ -1,89 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Paytable>
-  <StripDefinition>
+  <StripScale>
     <Strip name="Strip1">
-      <Ball>RD</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>YL</Ball>
-      <Ball>RD</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>GR</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>GR</Ball>
-      <Ball>RD</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>GR</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>RD</Ball>
-      <Ball>YL</Ball>
-      <Ball>YL</Ball>
-      <Ball>WH</Ball>
-      <Ball>GR</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>RD</Ball>
-      <Ball>GR</Ball>
-      <Ball>RD</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>YL</Ball>
-      <Ball>RD</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>GR</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>GR</Ball>
-      <Ball>RD</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>GR</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>RD</Ball>
-      <Ball>YL</Ball>
-      <Ball>YL</Ball>
-      <Ball>WH</Ball>
-      <Ball>GR</Ball>
-      <Ball>GR</Ball>
-      <Ball>YL</Ball>
-      <Ball>RD</Ball>
-      <Ball>GR</Ball>
+      <BaseStrip>
+        <Stop id="RD" weight="1" />
+        <Stop id="GR" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="GR" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="GR" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="GR" weight="1" />
+        <Stop id="GR" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="GR" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="GR" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="YL" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="WH" weight="1" />
+        <Stop id="GR" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="WH" weight="1" />
+      </BaseStrip>
+      <ShootStrip>
+        <Stop id="GR" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="RD" weight="1" />
+        <Stop id="WH" weight="1" />
+      </ShootStrip>
     </Strip>
-  </StripDefinition>
-  <PrizeDefinition>
-    <PrizePattern>
-      <PrizedBall name="RD" />
-      <AwardDefinition count="3" winAmount="10" winLevel="1"/>
-      <AwardDefinition count="4" winAmount="20" winLevel="2"/>
-      <AwardDefinition count="5" winAmount="30" winLevel="3"/>
-      <AwardDefinition count="6" winAmount="40" winLevel="4"/>
-    </PrizePattern>
-    <PrizePattern>
-      <PrizedBall name="GR" />
-      <AwardDefinition count="3" winAmount="10" winLevel="5"/>
-      <AwardDefinition count="4" winAmount="20" winLevel="6"/>
-      <AwardDefinition count="5" winAmount="30" winLevel="7"/>
-      <AwardDefinition count="6" winAmount="40" winLevel="8"/>
-    </PrizePattern>
-    <PrizePattern>
-      <PrizedBall name="YL" />
-      <AwardDefinition count="3" winAmount="10" winLevel="9"/>
-      <AwardDefinition count="4" winAmount="20" winLevel="10"/>
-      <AwardDefinition count="5" winAmount="30" winLevel="11"/>
-      <AwardDefinition count="6" winAmount="40" winLevel="12"/>
-    </PrizePattern>
-    <PrizePattern>
-      <PrizedBall name="WH" />
-      <AwardDefinition count="3" winAmount="10" winLevel="13"/>
-      <AwardDefinition count="4" winAmount="20" winLevel="14"/>
-      <AwardDefinition count="5" winAmount="30" winLevel="15"/>
-      <AwardDefinition count="6" winAmount="40" winLevel="16"/>
-    </PrizePattern>
-  </PrizeDefinition>
+  </StripScale>
+  <PrizeScale>
+    <Prize symbol="RD" requiredCount="3" winAmount="10" awardStrategy="TimesBetOnBall" winLevel="1" />
+    <Prize symbol="GR" requiredCount="3" winAmount="15" awardStrategy="TimesBetOnBall" winLevel="2" />
+    <Prize symbol="RD" requiredCount="3" winAmount="20" awardStrategy="TimesBetOnBall" winLevel="3" />
+    <Prize symbol="WH" requiredCount="3" winAmount="30" awardStrategy="TimesBetOnBall" winLevel="4" />
+  </PrizeScale>
 </Paytable>

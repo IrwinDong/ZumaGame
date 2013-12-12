@@ -1,5 +1,5 @@
 ﻿
-namespace Outcome
+namespace Presentation
 {
     public class ActionStrings
     {

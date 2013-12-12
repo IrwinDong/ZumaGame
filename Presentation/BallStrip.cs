@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Outcome
+namespace Presentation
 {
     [Serializable]
     public class BallStrip
@@ -11,6 +11,11 @@ namespace Outcome
         public BallStrip()
         {
             Balls = new List<Ball>();
+        }
+
+        public List<Ball> Update()
+        {
+            return null;
         }
     }
 }

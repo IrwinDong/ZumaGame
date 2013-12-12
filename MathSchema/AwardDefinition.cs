@@ -1,12 +1,11 @@
 ﻿
-using System.Xml.Serialization;
-
-namespace Math
+namespace MathSchema
 {
     using System;
+    using System.Xml.Serialization;
 
     /// <summary>
-    /// This class represents an award, including the empty award.
+    /// This class represents an award.
     /// </summary>
     [Serializable]
     public class AwardDefinition

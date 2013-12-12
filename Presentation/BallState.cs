@@ -1,7 +1,6 @@
-﻿
-using System;
+﻿using System;
 
-namespace Outcome
+namespace Presentation
 {
     [Serializable]
     public enum BallState
